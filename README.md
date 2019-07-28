@@ -1,6 +1,6 @@
 # [xkcd-favorites](https://seanbreckenridge.github.io/xkcd-favorites/)
 
-A github pages website that lists my favorite URLs.
+A github pages website that lists my favorite [xkcd](https://xkcd.com)'s.
 
 Font used: [ipython/xkcd-font](https://github.com/ipython/xkcd-font)
 
