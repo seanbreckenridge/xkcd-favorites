@@ -2,9 +2,7 @@
 
 A github pages website that lists my favorite [xkcd](https://xkcd.com)'s.
 
-Font used: [ipython/xkcd-font](https://github.com/ipython/xkcd-font)
-
-The MIT License applies to the html/css/python files, the [xkcd](https://xkcd.com/) comics themselves are licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)
+The MIT License applies to the code in this repository, I claim no ownership to the comics; [xkcd](https://xkcd.com/) is licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)
 
 ### Fork
 
