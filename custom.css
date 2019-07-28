@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'xkcd-font';
+  src: url("https://github.com/ipython/xkcd-font/blob/master/xkcd-script/font/xkcd-script.woff") format("woff");
+}
+
+* {
+  font-family: 'xkcd-font', 'Helvetica', sans-serif !important;
+}
+
+body {
+  background-color: #497cae45;
+}
+
+.navbar {
+  background-color: #000000db;
+}
+
+div.jumbotron {
+  background-color: aliceblue;
+  color: #2a4b6c;
+}
+
+main.container {
+  min-height: 100vh;
+  height: auto;
+}
+
+
+div.image-container a:first-child {
+  width: min-content;
+}

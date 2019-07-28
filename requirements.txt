@@ -1,0 +1,4 @@
+requests
+yattag
+PyYaml
+Pillow
