@@ -11,6 +11,7 @@ function main() {
       // create <a><img></img><a> (the comic)
       let img_link = document.createElement('a');
       img_link.href = metadata.img_url;
+      img_link.alt = "https://xkcd.com/" + id.toString();
       let img = document.createElement('img');
       img.src = metadata.img_url;
       $(img_link).append(img);
@@ -20,7 +21,7 @@ function main() {
       let caption = document.createElement('figcaption');
       let xkcd_link = document.createElement('a');
       xkcd_link.className = ["mt-1", "badge", "badge-pill"].join(" ");
-      let xkcd_href = "https://xkcd.com/" + id.toString()
+      let xkcd_href = "https://xkcd.com/" + id.toString();
       xkcd_link.innerText = xkcd_href;
       xkcd_link.href = xkcd_href;
       $(caption).append(xkcd_link);
