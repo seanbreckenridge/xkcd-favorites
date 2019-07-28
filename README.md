@@ -4,7 +4,7 @@ A github pages website that lists my favorite [xkcd](https://xkcd.com)'s.
 
 The MIT License applies to the code in this repository, I claim no ownership to the comics; [xkcd](https://xkcd.com/) is licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)
 
-### Fork
+### Create your own!
 
 If you wish to create your own favorites list, you can:
 
