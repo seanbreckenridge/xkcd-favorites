@@ -313,5 +313,19 @@
             "height": 244,
             "width": 740
         }
+    },
+    "609": {
+        "img_url": "https://imgs.xkcd.com/comics/tab_explosion.png",
+        "dimensions": {
+            "height": 1283,
+            "width": 740
+        }
+    },
+    "619": {
+        "img_url": "https://imgs.xkcd.com/comics/supported_features.png",
+        "dimensions": {
+            "height": 326,
+            "width": 324
+        }
     }
 }
