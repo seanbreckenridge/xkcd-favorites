@@ -292,5 +292,26 @@
             "height": 333,
             "width": 535
         }
+    },
+    "544": {
+        "img_url": "https://imgs.xkcd.com/comics/pep_talk.png",
+        "dimensions": {
+            "height": 377,
+            "width": 366
+        }
+    },
+    "557": {
+        "img_url": "https://imgs.xkcd.com/comics/students.png",
+        "dimensions": {
+            "height": 262,
+            "width": 740
+        }
+    },
+    "571": {
+        "img_url": "https://imgs.xkcd.com/comics/cant_sleep.png",
+        "dimensions": {
+            "height": 244,
+            "width": 740
+        }
     }
 }
