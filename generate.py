@@ -50,6 +50,7 @@ def initialize_data():
             with open(data_file, 'r') as f:
                 json_cache = json.load(f)
         except json.JSONDecodeError:
+            logging.warning("JSON decode error reading 'data.json', re-creating cache.")
             pass
 
     # if id's from your favorites have been removed, remove them from the data dictionary:
@@ -74,7 +75,7 @@ def main():
             logging.debug("Found information for id '{}' in 'data.json'".format(id))
 
     with open(data_file, 'w') as f:
-        json.dump(data, f)
+        f.write(json.dumps(data, indent=4))
 
 if __name__ == "__main__":
     main()
