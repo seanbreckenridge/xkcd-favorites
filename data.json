@@ -327,5 +327,68 @@
             "height": 326,
             "width": 324
         }
+    },
+    "625": {
+        "img_url": "https://imgs.xkcd.com/comics/collections.png",
+        "dimensions": {
+            "height": 201,
+            "width": 740
+        }
+    },
+    "627": {
+        "img_url": "https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png",
+        "dimensions": {
+            "height": 823,
+            "width": 732
+        }
+    },
+    "642": {
+        "img_url": "https://imgs.xkcd.com/comics/creepy.png",
+        "dimensions": {
+            "height": 173,
+            "width": 740
+        }
+    },
+    "664": {
+        "img_url": "https://imgs.xkcd.com/comics/academia_vs_business.png",
+        "dimensions": {
+            "height": 382,
+            "width": 740
+        }
+    },
+    "668": {
+        "img_url": "https://imgs.xkcd.com/comics/pandora.png",
+        "dimensions": {
+            "height": 250,
+            "width": 427
+        }
+    },
+    "676": {
+        "img_url": "https://imgs.xkcd.com/comics/abstraction.png",
+        "dimensions": {
+            "height": 442,
+            "width": 442
+        }
+    },
+    "678": {
+        "img_url": "https://imgs.xkcd.com/comics/researcher_translation.png",
+        "dimensions": {
+            "height": 431,
+            "width": 507
+        }
+    },
+    "695": {
+        "img_url": "https://imgs.xkcd.com/comics/spirit.png",
+        "dimensions": {
+            "height": 862,
+            "width": 639
+        }
+    },
+    "703": {
+        "img_url": "https://imgs.xkcd.com/comics/honor_societies.png",
+        "dimensions": {
+            "height": 251,
+            "width": 740
+        }
     }
 }
