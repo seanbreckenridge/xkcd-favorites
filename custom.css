@@ -20,6 +20,16 @@ main.container {
   height: auto;
 }
 
+figure img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+figure {
+  max-width: 100%;
+}
+
 .github-corner:hover .octo-arm {
 	animation: octocat-wave 560ms ease-in-out
 }
