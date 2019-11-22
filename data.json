@@ -390,5 +390,12 @@
             "height": 251,
             "width": 740
         }
+    },
+    "743": {
+        "img_url": "https://imgs.xkcd.com/comics/infrastructures.png",
+        "dimensions": {
+            "height": 352,
+            "width": 740
+        }
     }
 }
