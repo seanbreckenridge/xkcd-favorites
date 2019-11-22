@@ -1,6 +1,6 @@
 # [xkcd-favorites](https://seanbreckenridge.github.io/xkcd-favorites/)
 
-A github pages website that lists my favorite [xkcd](https://xkcd.com)'s.
+A GitHub pages website that lists my favorite [xkcd](https://xkcd.com)'s.
 
 The MIT License applies to the code in this repository, I claim no ownership to the comics; [xkcd](https://xkcd.com/) is licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)
 
@@ -17,7 +17,7 @@ If you wish to create your own favorites list, you can:
 
 `generate.py` will use `data.json` as a cache, so any items previously downloaded won't have to be downloaded again.
 
-For debugging whether or not something has already been downloaded, you can increase log verbosity by editing the `LOGLEVEL` envionment variable; e.g.:
+For debugging whether or not something has already been downloaded, you can increase log verbosity by editing the `LOGLEVEL` environment variable; e.g.:
 
 `LOGLEVEL=DEBUG python3 generate.py`
 
