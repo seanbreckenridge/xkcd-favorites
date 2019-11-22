@@ -1,7 +1,7 @@
 
 function main() {
-  $.getJSON('./data.json', function(data) {
-    $.each(data, function(id, metadata) {
+  $.getJSON('./data.json', function (data) {
+    $.each(data, function (id, metadata) {
       // create figure
       let figure = document.createElement('figure');
       figure.className = ["p-2", "text-center"].join(" ");
