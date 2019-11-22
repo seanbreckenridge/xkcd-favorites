@@ -1,4 +1,3 @@
 requests
-yattag
 PyYaml
 Pillow
