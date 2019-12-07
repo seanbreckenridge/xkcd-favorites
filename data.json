@@ -397,5 +397,19 @@
             "height": 352,
             "width": 740
         }
+    },
+    "763": {
+        "img_url": "https://imgs.xkcd.com/comics/workaround.png",
+        "dimensions": {
+            "height": 462,
+            "width": 398
+        }
+    },
+    "773": {
+        "img_url": "https://imgs.xkcd.com/comics/university_website.png",
+        "dimensions": {
+            "height": 378,
+            "width": 541
+        }
     }
 }
