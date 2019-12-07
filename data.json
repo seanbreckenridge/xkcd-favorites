@@ -411,5 +411,68 @@
             "height": 378,
             "width": 541
         }
+    },
+    "792": {
+        "img_url": "https://imgs.xkcd.com/comics/password_reuse.png",
+        "dimensions": {
+            "height": 1189,
+            "width": 480
+        }
+    },
+    "798": {
+        "img_url": "https://imgs.xkcd.com/comics/adjectives.png",
+        "dimensions": {
+            "height": 649,
+            "width": 632
+        }
+    },
+    "802": {
+        "img_url": "https://imgs.xkcd.com/comics/online_communities_2.png",
+        "dimensions": {
+            "height": 860,
+            "width": 740
+        }
+    },
+    "806": {
+        "img_url": "https://imgs.xkcd.com/comics/tech_support.png",
+        "dimensions": {
+            "height": 923,
+            "width": 625
+        }
+    },
+    "832": {
+        "img_url": "https://imgs.xkcd.com/comics/tic_tac_toe.png",
+        "dimensions": {
+            "height": 1674,
+            "width": 740
+        }
+    },
+    "835": {
+        "img_url": "https://imgs.xkcd.com/comics/tree.png",
+        "dimensions": {
+            "height": 408,
+            "width": 562
+        }
+    },
+    "838": {
+        "img_url": "https://imgs.xkcd.com/comics/incident.png",
+        "dimensions": {
+            "height": 309,
+            "width": 695
+        }
+    },
+    "844": {
+        "img_url": "https://imgs.xkcd.com/comics/good_code.png",
+        "dimensions": {
+            "height": 695,
+            "width": 455
+        }
+    },
+    "850": {
+        "img_url": "https://imgs.xkcd.com/comics/world_according_to_americans.png",
+        "dimensions": {
+            "height": 569,
+            "width": 740
+        }
     }
 }
