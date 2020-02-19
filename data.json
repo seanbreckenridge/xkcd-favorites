@@ -474,5 +474,61 @@
             "height": 569,
             "width": 740
         }
+    },
+    "869": {
+        "img_url": "https://imgs.xkcd.com/comics/server_attention_span.png",
+        "dimensions": {
+            "height": 199,
+            "width": 740
+        }
+    },
+    "874": {
+        "img_url": "https://imgs.xkcd.com/comics/time_management.png",
+        "dimensions": {
+            "height": 280,
+            "width": 630
+        }
+    },
+    "910": {
+        "img_url": "https://imgs.xkcd.com/comics/permanence.png",
+        "dimensions": {
+            "height": 650,
+            "width": 740
+        }
+    },
+    "927": {
+        "img_url": "https://imgs.xkcd.com/comics/standards.png",
+        "dimensions": {
+            "height": 283,
+            "width": 500
+        }
+    },
+    "934": {
+        "img_url": "https://imgs.xkcd.com/comics/mac_pc.png",
+        "dimensions": {
+            "height": 371,
+            "width": 200
+        }
+    },
+    "936": {
+        "img_url": "https://imgs.xkcd.com/comics/password_strength.png",
+        "dimensions": {
+            "height": 601,
+            "width": 740
+        }
+    },
+    "945": {
+        "img_url": "https://imgs.xkcd.com/comics/im_sorry.png",
+        "dimensions": {
+            "height": 480,
+            "width": 199
+        }
+    },
+    "949": {
+        "img_url": "https://imgs.xkcd.com/comics/file_transfer.png",
+        "dimensions": {
+            "height": 614,
+            "width": 456
+        }
     }
 }
