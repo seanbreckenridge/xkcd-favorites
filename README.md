@@ -1,4 +1,4 @@
-# [xkcd-favorites](https://seanbreckenridge.github.io/xkcd-favorites/)
+# [xkcd-favorites](https://www.seanbr.com/xkcd//)
 
 A GitHub pages website that lists my favorite [xkcd](https://xkcd.com)'s.
 
