@@ -3,19 +3,19 @@ import time
 import json
 import logging
 from io import BytesIO
-from typing import Mapping, List, Any
+from typing import Mapping, List, Any, Union
 
 import yaml
 import requests
-import backoff
-from PIL import Image
+import backoff  # type: ignore
+from PIL import Image  # type: ignore
 
 root_dir: str = os.path.dirname(__file__)
 favorites_file: str = os.path.join(root_dir, "favorites.yaml")  # source
 data_file: str = os.path.join(root_dir, "data.json")  # output
 xkcd_json_api: str = "http://xkcd.com/{}/info.0.json"
 
-LOGLEVEL: str = os.environ.get("LOGLEVEL", "INFO").upper()
+LOGLEVEL: str = os.environ.get("XKCD_LOGLEVEL", "INFO").upper()
 logging.basicConfig(level=LOGLEVEL, format="%(asctime)s: %(message)s")
 
 
@@ -46,7 +46,7 @@ def initialize_data():
         ids: List[str] = list(map(str, yaml.load(f, Loader=yaml.FullLoader)))
 
     # read from data file (i.e. cached values) if it exists
-    json_cache: Mapping[str, Any] = {}
+    json_cache: Mapping[str, Union[str, Mapping[str, int]]] = {}
     if os.path.exists(data_file):
         try:
             with open(data_file, "r") as f:
@@ -59,9 +59,7 @@ def initialize_data():
     for id in list(json_cache):
         if id not in ids:
             logging.info(
-                "Couldn't find id: '{}' in favorites.yaml, removing from 'data.json'.".format(
-                    id
-                )
+                f"Couldn't find id: '{id}' in favorites.yaml, removing from 'data.json'."
             )
             del json_cache[id]
 

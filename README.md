@@ -17,8 +17,8 @@ If you wish to create your own favorites list, you can:
 
 `generate.py` will use `data.json` as a cache, so any items previously downloaded won't have to be downloaded again.
 
-For debugging whether or not something has already been downloaded, you can increase log verbosity by editing the `LOGLEVEL` environment variable; e.g.:
+For debugging whether or not something has already been downloaded, you can increase log verbosity by editing the `XKCD_LOGLEVEL` environment variable; e.g.:
 
-`LOGLEVEL=DEBUG python3 generate.py`
+`XKCD_LOGLEVEL=DEBUG python3 generate.py`
 
 More about log levels [here](https://docs.python.org/3.7/howto/logging.html#when-to-use-logging).
