@@ -4,11 +4,8 @@ function main() {
       // create figure
       let figure = document.createElement("figure");
       figure.className = ["p-2", "text-center"].join(" ");
-      // while images are loading in, make sure text is well spaced
-      figure.style.cssText =
-        "padding-bottom: " + metadata.dimensions.height + "px";
 
-      // create <a><img></img><a> (the comic)
+      // create <a><img></img><a> (the image)
       let img_link = document.createElement("a");
       img_link.href = metadata.img_url;
       img_link.alt = "https://xkcd.com/" + id.toString();

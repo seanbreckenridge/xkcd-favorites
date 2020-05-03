@@ -1,4 +1,3 @@
 requests
 PyYaml
-Pillow
 backoff

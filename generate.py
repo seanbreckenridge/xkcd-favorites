@@ -2,13 +2,11 @@ import os
 import time
 import json
 import logging
-from io import BytesIO
 from typing import Mapping, List, Any, Union
 
 import yaml
 import requests
 import backoff  # type: ignore
-from PIL import Image  # type: ignore
 
 root_dir: str = os.path.dirname(__file__)
 favorites_file: str = os.path.join(root_dir, "favorites.yaml")  # source
@@ -26,16 +24,10 @@ def get(url) -> requests.Response:
 
 @backoff.on_exception(backoff.fibo, requests.exceptions.RequestException, max_tries=20)
 def get_img_data(id):
-    """Get image url and height/width for the image for a xkcd id"""
+    """Get image url from an xkcd id"""
     logging.info("Getting metadata for xkcd id: {}".format(id))
-    # get metadata
     resp: Mapping[str, Any] = get(xkcd_json_api.format(id)).json()
-    # get img dimensions
-    img_obj: Image.Image = Image.open(BytesIO(get(resp["img"]).content))
-    return {
-        "img_url": resp["img"],
-        "dimensions": {"height": img_obj.height, "width": img_obj.width},
-    }
+    return {"img_url": resp["img"]}
 
 
 def initialize_data():
