@@ -1,534 +1,326 @@
 {
     "14": {
-        "img_url": "https://imgs.xkcd.com/comics/copyright.jpg",
-        "dimensions": {
-            "height": 499,
-            "width": 640
-        }
+        "img_url": "https://imgs.xkcd.com/comics/copyright.jpg"
     },
     "60": {
-        "img_url": "https://imgs.xkcd.com/comics/super_bowl.jpg",
-        "dimensions": {
-            "height": 256,
-            "width": 500
-        }
+        "img_url": "https://imgs.xkcd.com/comics/super_bowl.jpg"
     },
     "69": {
-        "img_url": "https://imgs.xkcd.com/comics/pillow_talk.jpg",
-        "dimensions": {
-            "height": 186,
-            "width": 640
-        }
+        "img_url": "https://imgs.xkcd.com/comics/pillow_talk.jpg"
     },
     "85": {
-        "img_url": "https://imgs.xkcd.com/comics/paths.jpg",
-        "dimensions": {
-            "height": 562,
-            "width": 500
-        }
+        "img_url": "https://imgs.xkcd.com/comics/paths.jpg"
     },
     "137": {
-        "img_url": "https://imgs.xkcd.com/comics/dreams.png",
-        "dimensions": {
-            "height": 757,
-            "width": 550
-        }
+        "img_url": "https://imgs.xkcd.com/comics/dreams.png"
     },
     "138": {
-        "img_url": "https://imgs.xkcd.com/comics/pointers.png",
-        "dimensions": {
-            "height": 299,
-            "width": 360
-        }
+        "img_url": "https://imgs.xkcd.com/comics/pointers.png"
     },
     "148": {
-        "img_url": "https://imgs.xkcd.com/comics/mispronouncing.png",
-        "dimensions": {
-            "height": 419,
-            "width": 350
-        }
+        "img_url": "https://imgs.xkcd.com/comics/mispronouncing.png"
     },
     "169": {
-        "img_url": "https://imgs.xkcd.com/comics/words_that_end_in_gry.png",
-        "dimensions": {
-            "height": 538,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/words_that_end_in_gry.png"
     },
     "171": {
-        "img_url": "https://imgs.xkcd.com/comics/string_theory.png",
-        "dimensions": {
-            "height": 386,
-            "width": 400
-        }
+        "img_url": "https://imgs.xkcd.com/comics/string_theory.png"
     },
     "173": {
-        "img_url": "https://imgs.xkcd.com/comics/movie_seating.png",
-        "dimensions": {
-            "height": 571,
-            "width": 500
-        }
+        "img_url": "https://imgs.xkcd.com/comics/movie_seating.png"
     },
     "181": {
-        "img_url": "https://imgs.xkcd.com/comics/interblag.png",
-        "dimensions": {
-            "height": 468,
-            "width": 400
-        }
+        "img_url": "https://imgs.xkcd.com/comics/interblag.png"
     },
     "195": {
-        "img_url": "https://imgs.xkcd.com/comics/map_of_the_internet.jpg",
-        "dimensions": {
-            "height": 1076,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/map_of_the_internet.jpg"
     },
     "208": {
-        "img_url": "https://imgs.xkcd.com/comics/regular_expressions.png",
-        "dimensions": {
-            "height": 607,
-            "width": 600
-        }
+        "img_url": "https://imgs.xkcd.com/comics/regular_expressions.png"
     },
     "221": {
-        "img_url": "https://imgs.xkcd.com/comics/random_number.png",
-        "dimensions": {
-            "height": 144,
-            "width": 400
-        }
+        "img_url": "https://imgs.xkcd.com/comics/random_number.png"
     },
     "245": {
-        "img_url": "https://imgs.xkcd.com/comics/floor_tiles.png",
-        "dimensions": {
-            "height": 192,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/floor_tiles.png"
     },
     "273": {
-        "img_url": "https://imgs.xkcd.com/comics/electromagnetic_spectrum_small.png",
-        "dimensions": {
-            "height": 557,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/electromagnetic_spectrum_small.png"
     },
     "292": {
-        "img_url": "https://imgs.xkcd.com/comics/goto.png",
-        "dimensions": {
-            "height": 201,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/goto.png"
     },
     "302": {
-        "img_url": "https://imgs.xkcd.com/comics/names.png",
-        "dimensions": {
-            "height": 183,
-            "width": 514
-        }
+        "img_url": "https://imgs.xkcd.com/comics/names.png"
     },
     "303": {
-        "img_url": "https://imgs.xkcd.com/comics/compiling.png",
-        "dimensions": {
-            "height": 360,
-            "width": 413
-        }
+        "img_url": "https://imgs.xkcd.com/comics/compiling.png"
     },
     "309": {
-        "img_url": "https://imgs.xkcd.com/comics/shopping_teams.png",
-        "dimensions": {
-            "height": 554,
-            "width": 659
-        }
+        "img_url": "https://imgs.xkcd.com/comics/shopping_teams.png"
     },
     "314": {
-        "img_url": "https://imgs.xkcd.com/comics/dating_pools.png",
-        "dimensions": {
-            "height": 175,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/dating_pools.png"
     },
     "327": {
-        "img_url": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png",
-        "dimensions": {
-            "height": 205,
-            "width": 666
-        }
+        "img_url": "https://imgs.xkcd.com/comics/exploits_of_a_mom.png"
     },
     "349": {
-        "img_url": "https://imgs.xkcd.com/comics/success.png",
-        "dimensions": {
-            "height": 947,
-            "width": 550
-        }
+        "img_url": "https://imgs.xkcd.com/comics/success.png"
     },
     "353": {
-        "img_url": "https://imgs.xkcd.com/comics/python.png",
-        "dimensions": {
-            "height": 588,
-            "width": 518
-        }
+        "img_url": "https://imgs.xkcd.com/comics/python.png"
     },
     "361": {
-        "img_url": "https://imgs.xkcd.com/comics/christmas_back_home.png",
-        "dimensions": {
-            "height": 219,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/christmas_back_home.png"
     },
     "369": {
-        "img_url": "https://imgs.xkcd.com/comics/dangers.png",
-        "dimensions": {
-            "height": 469,
-            "width": 540
-        }
+        "img_url": "https://imgs.xkcd.com/comics/dangers.png"
     },
     "373": {
-        "img_url": "https://imgs.xkcd.com/comics/the_data_so_far.png",
-        "dimensions": {
-            "height": 310,
-            "width": 325
-        }
+        "img_url": "https://imgs.xkcd.com/comics/the_data_so_far.png"
     },
     "376": {
-        "img_url": "https://imgs.xkcd.com/comics/bug.png",
-        "dimensions": {
-            "height": 258,
-            "width": 271
-        }
+        "img_url": "https://imgs.xkcd.com/comics/bug.png"
     },
     "378": {
-        "img_url": "https://imgs.xkcd.com/comics/real_programmers.png",
-        "dimensions": {
-            "height": 406,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/real_programmers.png"
     },
     "386": {
-        "img_url": "https://imgs.xkcd.com/comics/duty_calls.png",
-        "dimensions": {
-            "height": 330,
-            "width": 300
-        }
+        "img_url": "https://imgs.xkcd.com/comics/duty_calls.png"
     },
     "397": {
-        "img_url": "https://imgs.xkcd.com/comics/unscientific.png",
-        "dimensions": {
-            "height": 524,
-            "width": 599
-        }
+        "img_url": "https://imgs.xkcd.com/comics/unscientific.png"
     },
     "403": {
-        "img_url": "https://imgs.xkcd.com/comics/convincing_pickup_line.png",
-        "dimensions": {
-            "height": 330,
-            "width": 300
-        }
+        "img_url": "https://imgs.xkcd.com/comics/convincing_pickup_line.png"
     },
     "416": {
-        "img_url": "https://imgs.xkcd.com/comics/zealous_autoconfig.png",
-        "dimensions": {
-            "height": 211,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/zealous_autoconfig.png"
     },
     "427": {
-        "img_url": "https://imgs.xkcd.com/comics/bad_timing.png",
-        "dimensions": {
-            "height": 202,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/bad_timing.png"
     },
     "430": {
-        "img_url": "https://imgs.xkcd.com/comics/every_damn_morning.png",
-        "dimensions": {
-            "height": 1095,
-            "width": 450
-        }
+        "img_url": "https://imgs.xkcd.com/comics/every_damn_morning.png"
     },
     "435": {
-        "img_url": "https://imgs.xkcd.com/comics/purity.png",
-        "dimensions": {
-            "height": 308,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/purity.png"
     },
     "451": {
-        "img_url": "https://imgs.xkcd.com/comics/impostor.png",
-        "dimensions": {
-            "height": 312,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/impostor.png"
     },
     "456": {
-        "img_url": "https://imgs.xkcd.com/comics/cautionary.png",
-        "dimensions": {
-            "height": 277,
-            "width": 665
-        }
+        "img_url": "https://imgs.xkcd.com/comics/cautionary.png"
     },
     "481": {
-        "img_url": "https://imgs.xkcd.com/comics/listen_to_yourself.png",
-        "dimensions": {
-            "height": 513,
-            "width": 462
-        }
+        "img_url": "https://imgs.xkcd.com/comics/listen_to_yourself.png"
     },
     "488": {
-        "img_url": "https://imgs.xkcd.com/comics/steal_this_comic.png",
-        "dimensions": {
-            "height": 469,
-            "width": 498
-        }
+        "img_url": "https://imgs.xkcd.com/comics/steal_this_comic.png"
     },
     "490": {
-        "img_url": "https://imgs.xkcd.com/comics/morning_routine.png",
-        "dimensions": {
-            "height": 197,
-            "width": 336
-        }
+        "img_url": "https://imgs.xkcd.com/comics/morning_routine.png"
     },
     "519": {
-        "img_url": "https://imgs.xkcd.com/comics/11th_grade.png",
-        "dimensions": {
-            "height": 333,
-            "width": 535
-        }
+        "img_url": "https://imgs.xkcd.com/comics/11th_grade.png"
     },
     "544": {
-        "img_url": "https://imgs.xkcd.com/comics/pep_talk.png",
-        "dimensions": {
-            "height": 377,
-            "width": 366
-        }
+        "img_url": "https://imgs.xkcd.com/comics/pep_talk.png"
     },
     "557": {
-        "img_url": "https://imgs.xkcd.com/comics/students.png",
-        "dimensions": {
-            "height": 262,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/students.png"
     },
     "571": {
-        "img_url": "https://imgs.xkcd.com/comics/cant_sleep.png",
-        "dimensions": {
-            "height": 244,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/cant_sleep.png"
     },
     "609": {
-        "img_url": "https://imgs.xkcd.com/comics/tab_explosion.png",
-        "dimensions": {
-            "height": 1283,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/tab_explosion.png"
     },
     "619": {
-        "img_url": "https://imgs.xkcd.com/comics/supported_features.png",
-        "dimensions": {
-            "height": 326,
-            "width": 324
-        }
+        "img_url": "https://imgs.xkcd.com/comics/supported_features.png"
     },
     "625": {
-        "img_url": "https://imgs.xkcd.com/comics/collections.png",
-        "dimensions": {
-            "height": 201,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/collections.png"
     },
     "627": {
-        "img_url": "https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png",
-        "dimensions": {
-            "height": 823,
-            "width": 732
-        }
+        "img_url": "https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png"
     },
     "642": {
-        "img_url": "https://imgs.xkcd.com/comics/creepy.png",
-        "dimensions": {
-            "height": 173,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/creepy.png"
     },
     "664": {
-        "img_url": "https://imgs.xkcd.com/comics/academia_vs_business.png",
-        "dimensions": {
-            "height": 382,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/academia_vs_business.png"
     },
     "668": {
-        "img_url": "https://imgs.xkcd.com/comics/pandora.png",
-        "dimensions": {
-            "height": 250,
-            "width": 427
-        }
+        "img_url": "https://imgs.xkcd.com/comics/pandora.png"
     },
     "676": {
-        "img_url": "https://imgs.xkcd.com/comics/abstraction.png",
-        "dimensions": {
-            "height": 442,
-            "width": 442
-        }
+        "img_url": "https://imgs.xkcd.com/comics/abstraction.png"
     },
     "678": {
-        "img_url": "https://imgs.xkcd.com/comics/researcher_translation.png",
-        "dimensions": {
-            "height": 431,
-            "width": 507
-        }
+        "img_url": "https://imgs.xkcd.com/comics/researcher_translation.png"
     },
     "695": {
-        "img_url": "https://imgs.xkcd.com/comics/spirit.png",
-        "dimensions": {
-            "height": 862,
-            "width": 639
-        }
+        "img_url": "https://imgs.xkcd.com/comics/spirit.png"
     },
     "703": {
-        "img_url": "https://imgs.xkcd.com/comics/honor_societies.png",
-        "dimensions": {
-            "height": 251,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/honor_societies.png"
     },
     "743": {
-        "img_url": "https://imgs.xkcd.com/comics/infrastructures.png",
-        "dimensions": {
-            "height": 352,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/infrastructures.png"
     },
     "763": {
-        "img_url": "https://imgs.xkcd.com/comics/workaround.png",
-        "dimensions": {
-            "height": 462,
-            "width": 398
-        }
+        "img_url": "https://imgs.xkcd.com/comics/workaround.png"
     },
     "773": {
-        "img_url": "https://imgs.xkcd.com/comics/university_website.png",
-        "dimensions": {
-            "height": 378,
-            "width": 541
-        }
+        "img_url": "https://imgs.xkcd.com/comics/university_website.png"
     },
     "792": {
-        "img_url": "https://imgs.xkcd.com/comics/password_reuse.png",
-        "dimensions": {
-            "height": 1189,
-            "width": 480
-        }
+        "img_url": "https://imgs.xkcd.com/comics/password_reuse.png"
     },
     "798": {
-        "img_url": "https://imgs.xkcd.com/comics/adjectives.png",
-        "dimensions": {
-            "height": 649,
-            "width": 632
-        }
+        "img_url": "https://imgs.xkcd.com/comics/adjectives.png"
     },
     "802": {
-        "img_url": "https://imgs.xkcd.com/comics/online_communities_2.png",
-        "dimensions": {
-            "height": 860,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/online_communities_2.png"
     },
     "806": {
-        "img_url": "https://imgs.xkcd.com/comics/tech_support.png",
-        "dimensions": {
-            "height": 923,
-            "width": 625
-        }
+        "img_url": "https://imgs.xkcd.com/comics/tech_support.png"
     },
     "832": {
-        "img_url": "https://imgs.xkcd.com/comics/tic_tac_toe.png",
-        "dimensions": {
-            "height": 1674,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/tic_tac_toe.png"
     },
     "835": {
-        "img_url": "https://imgs.xkcd.com/comics/tree.png",
-        "dimensions": {
-            "height": 408,
-            "width": 562
-        }
+        "img_url": "https://imgs.xkcd.com/comics/tree.png"
     },
     "838": {
-        "img_url": "https://imgs.xkcd.com/comics/incident.png",
-        "dimensions": {
-            "height": 309,
-            "width": 695
-        }
+        "img_url": "https://imgs.xkcd.com/comics/incident.png"
     },
     "844": {
-        "img_url": "https://imgs.xkcd.com/comics/good_code.png",
-        "dimensions": {
-            "height": 695,
-            "width": 455
-        }
+        "img_url": "https://imgs.xkcd.com/comics/good_code.png"
     },
     "850": {
-        "img_url": "https://imgs.xkcd.com/comics/world_according_to_americans.png",
-        "dimensions": {
-            "height": 569,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/world_according_to_americans.png"
     },
     "869": {
-        "img_url": "https://imgs.xkcd.com/comics/server_attention_span.png",
-        "dimensions": {
-            "height": 199,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/server_attention_span.png"
     },
     "874": {
-        "img_url": "https://imgs.xkcd.com/comics/time_management.png",
-        "dimensions": {
-            "height": 280,
-            "width": 630
-        }
+        "img_url": "https://imgs.xkcd.com/comics/time_management.png"
     },
     "910": {
-        "img_url": "https://imgs.xkcd.com/comics/permanence.png",
-        "dimensions": {
-            "height": 650,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/permanence.png"
     },
     "927": {
-        "img_url": "https://imgs.xkcd.com/comics/standards.png",
-        "dimensions": {
-            "height": 283,
-            "width": 500
-        }
+        "img_url": "https://imgs.xkcd.com/comics/standards.png"
     },
     "934": {
-        "img_url": "https://imgs.xkcd.com/comics/mac_pc.png",
-        "dimensions": {
-            "height": 371,
-            "width": 200
-        }
+        "img_url": "https://imgs.xkcd.com/comics/mac_pc.png"
     },
     "936": {
-        "img_url": "https://imgs.xkcd.com/comics/password_strength.png",
-        "dimensions": {
-            "height": 601,
-            "width": 740
-        }
+        "img_url": "https://imgs.xkcd.com/comics/password_strength.png"
     },
     "945": {
-        "img_url": "https://imgs.xkcd.com/comics/im_sorry.png",
-        "dimensions": {
-            "height": 480,
-            "width": 199
-        }
+        "img_url": "https://imgs.xkcd.com/comics/im_sorry.png"
     },
     "949": {
-        "img_url": "https://imgs.xkcd.com/comics/file_transfer.png",
-        "dimensions": {
-            "height": 614,
-            "width": 456
-        }
+        "img_url": "https://imgs.xkcd.com/comics/file_transfer.png"
+    },
+    "963": {
+        "img_url": "https://imgs.xkcd.com/comics/x11.png"
+    },
+    "970": {
+        "img_url": "https://imgs.xkcd.com/comics/the_important_field.png"
+    },
+    "979": {
+        "img_url": "https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png"
+    },
+    "1036": {
+        "img_url": "https://imgs.xkcd.com/comics/reviews.png"
+    },
+    "1066": {
+        "img_url": "https://imgs.xkcd.com/comics/laundry.png"
+    },
+    "1070": {
+        "img_url": "https://imgs.xkcd.com/comics/words_for_small_sets.png"
+    },
+    "1077": {
+        "img_url": "https://imgs.xkcd.com/comics/home_organization.png"
+    },
+    "1084": {
+        "img_url": "https://imgs.xkcd.com/comics/server_problem.png"
+    },
+    "1089": {
+        "img_url": "https://imgs.xkcd.com/comics/internal_monologue.png"
+    },
+    "1098": {
+        "img_url": "https://imgs.xkcd.com/comics/star_ratings.png"
+    },
+    "1118": {
+        "img_url": "https://imgs.xkcd.com/comics/microsoft.png"
+    },
+    "1121": {
+        "img_url": "https://imgs.xkcd.com/comics/identity.png"
+    },
+    "1168": {
+        "img_url": "https://imgs.xkcd.com/comics/tar.png"
+    },
+    "1171": {
+        "img_url": "https://imgs.xkcd.com/comics/perl_problems.png"
+    },
+    "1172": {
+        "img_url": "https://imgs.xkcd.com/comics/workflow.png"
+    },
+    "1180": {
+        "img_url": "https://imgs.xkcd.com/comics/virus_venn_diagram.png"
+    },
+    "1195": {
+        "img_url": "https://imgs.xkcd.com/comics/flowchart.png"
+    },
+    "1197": {
+        "img_url": "https://imgs.xkcd.com/comics/all_adobe_updates.png"
+    },
+    "1205": {
+        "img_url": "https://imgs.xkcd.com/comics/is_it_worth_the_time.png"
+    },
+    "1235": {
+        "img_url": "https://imgs.xkcd.com/comics/settled.png"
+    },
+    "1247": {
+        "img_url": "https://imgs.xkcd.com/comics/the_mother_of_all_suspicious_files.png"
+    },
+    "1254": {
+        "img_url": "https://imgs.xkcd.com/comics/preferred_chat_system.png"
+    },
+    "1264": {
+        "img_url": "https://imgs.xkcd.com/comics/slideshow.gif"
+    },
+    "1266": {
+        "img_url": "https://imgs.xkcd.com/comics/halting_problem.png"
+    },
+    "1270": {
+        "img_url": "https://imgs.xkcd.com/comics/functional.png"
+    },
+    "1275": {
+        "img_url": "https://imgs.xkcd.com/comics/int_pi.png"
+    },
+    "1280": {
+        "img_url": "https://imgs.xkcd.com/comics/mystery_news.png"
+    },
+    "1319": {
+        "img_url": "https://imgs.xkcd.com/comics/automation.png"
+    },
+    "1406": {
+        "img_url": "https://imgs.xkcd.com/comics/universal_converter_box.png"
+    },
+    "1409": {
+        "img_url": "https://imgs.xkcd.com/comics/query.png"
+    },
+    "1421": {
+        "img_url": "https://imgs.xkcd.com/comics/future_self.png"
+    },
+    "1425": {
+        "img_url": "https://imgs.xkcd.com/comics/tasks.png"
     }
 }
