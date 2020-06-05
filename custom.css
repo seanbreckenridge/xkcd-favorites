@@ -4,6 +4,8 @@ html {
 
 body {
   background-color: #497cae45;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
