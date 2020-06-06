@@ -283,5 +283,29 @@
     },
     "1425": {
         "img_url": "https://imgs.xkcd.com/comics/tasks.png"
+    },
+    "1448": {
+        "img_url": "https://imgs.xkcd.com/comics/question.png"
+    },
+    "1451": {
+        "img_url": "https://imgs.xkcd.com/comics/background_screens.png"
+    },
+    "1459": {
+        "img_url": "https://imgs.xkcd.com/comics/documents.png"
+    },
+    "1481": {
+        "img_url": "https://imgs.xkcd.com/comics/api.png"
+    },
+    "1495": {
+        "img_url": "https://imgs.xkcd.com/comics/hard_reboot.png"
+    },
+    "1497": {
+        "img_url": "https://imgs.xkcd.com/comics/new_products.png"
+    },
+    "1579": {
+        "img_url": "https://imgs.xkcd.com/comics/tech_loops.png"
+    },
+    "1597": {
+        "img_url": "https://imgs.xkcd.com/comics/git.png"
     }
 }
