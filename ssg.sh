@@ -10,7 +10,7 @@
 
 generate_html() {
 	# parse JSON line delimited info
-	DATA_LINES=$(jq -r 'to_entries[] | "\(.key) \(.value | .img_url)"' <data.json)
+	DATA_LINES=$(jq -r 'to_entries[] | "\(.key) \(.value | .img_url)"' <./data.json)
 	while IFS= read -r info; do
 		# split into arr
 		IFS=' ' read -r -a arr <<<"$info"
@@ -29,4 +29,4 @@ while IFS= read -r line; do
 	else
 		echo "$line"
 	fi
-done <./index.html >static.html
+done <./index.html >./static.html
