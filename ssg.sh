@@ -15,17 +15,17 @@ generate_html() {
 		# split into arr
 		IFS=' ' read -r -a arr <<<"$info"
 		printf '<figure class="p-2 text-center"><a href="%s"><img src="%s"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/%d">https://xkcd.com/%d</a></figcaption></figure>\n' "${arr[1]}" "${arr[1]}" "${arr[0]}" "${arr[0]}"
-	done<<<"$DATA_LINES"
+	done <<<"$DATA_LINES"
 }
 
 while IFS= read -r line; do
 	if [[ "$line" == *"noscript"* ]]; then
 		# replace the noscript line with a
 		# pre-rendered page
-    generate_html
+		generate_html
 	elif [[ "$line" == *"<script"* ]]; then
 		# do nothing, remove javascript lines
-    : # noop
+		: # noop
 	else
 		echo "$line"
 	fi
