@@ -6,7 +6,7 @@
 #
 # on my server I do: ./ssg.sh && mv static.html index.html
 #
-# requies: jq
+# requires: jq
 
 generate_html() {
 	# parse JSON line delimited info
