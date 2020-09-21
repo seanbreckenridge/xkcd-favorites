@@ -319,5 +319,41 @@
     },
     "1647": {
         "img_url": "https://imgs.xkcd.com/comics/diacritics.png"
+    },
+    "1650": {
+        "img_url": "https://imgs.xkcd.com/comics/baby.png"
+    },
+    "1652": {
+        "img_url": "https://imgs.xkcd.com/comics/conditionals.png"
+    },
+    "1654": {
+        "img_url": "https://imgs.xkcd.com/comics/universal_install_script.png"
+    },
+    "1656": {
+        "img_url": "https://imgs.xkcd.com/comics/it_begins.png"
+    },
+    "1667": {
+        "img_url": "https://imgs.xkcd.com/comics/algorithms.png"
+    },
+    "1683": {
+        "img_url": "https://imgs.xkcd.com/comics/digital_data.png"
+    },
+    "1691": {
+        "img_url": "https://imgs.xkcd.com/comics/optimization.png"
+    },
+    "1694": {
+        "img_url": "https://imgs.xkcd.com/comics/phishing_license.png"
+    },
+    "1723": {
+        "img_url": "https://imgs.xkcd.com/comics/meteorite_identification.png"
+    },
+    "1728": {
+        "img_url": "https://imgs.xkcd.com/comics/cron_mail.png"
+    },
+    "1739": {
+        "img_url": "https://imgs.xkcd.com/comics/fixing_problems.png"
+    },
+    "1742": {
+        "img_url": "https://imgs.xkcd.com/comics/will_it_work.png"
     }
 }
