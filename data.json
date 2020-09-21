@@ -307,5 +307,17 @@
     },
     "1597": {
         "img_url": "https://imgs.xkcd.com/comics/git.png"
+    },
+    "1634": {
+        "img_url": "https://imgs.xkcd.com/comics/in_case_of_emergency.png"
+    },
+    "1636": {
+        "img_url": "https://imgs.xkcd.com/comics/xkcd_stack.png"
+    },
+    "1646": {
+        "img_url": "https://imgs.xkcd.com/comics/twitter_bot.png"
+    },
+    "1647": {
+        "img_url": "https://imgs.xkcd.com/comics/diacritics.png"
     }
 }
