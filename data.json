@@ -355,5 +355,17 @@
     },
     "1742": {
         "img_url": "https://imgs.xkcd.com/comics/will_it_work.png"
+    },
+    "1760": {
+        "img_url": "https://imgs.xkcd.com/comics/tv_problems.png"
+    },
+    "1768": {
+        "img_url": "https://imgs.xkcd.com/comics/settling.png"
+    },
+    "1782": {
+        "img_url": "https://imgs.xkcd.com/comics/team_chat.png"
+    },
+    "1802": {
+        "img_url": "https://imgs.xkcd.com/comics/phone.png"
     }
 }
