@@ -367,5 +367,29 @@
     },
     "1802": {
         "img_url": "https://imgs.xkcd.com/comics/phone.png"
+    },
+    "1854": {
+        "img_url": "https://imgs.xkcd.com/comics/refresh_types.png"
+    },
+    "1897": {
+        "img_url": "https://imgs.xkcd.com/comics/self_driving.png"
+    },
+    "1906": {
+        "img_url": "https://imgs.xkcd.com/comics/making_progress.png"
+    },
+    "1909": {
+        "img_url": "https://imgs.xkcd.com/comics/digital_resource_lifespan.png"
+    },
+    "1914": {
+        "img_url": "https://imgs.xkcd.com/comics/twitter_verification.png"
+    },
+    "1987": {
+        "img_url": "https://imgs.xkcd.com/comics/python_environment.png"
+    },
+    "2045": {
+        "img_url": "https://imgs.xkcd.com/comics/social_media_announcement.png"
+    },
+    "2054": {
+        "img_url": "https://imgs.xkcd.com/comics/data_pipeline.png"
     }
 }
