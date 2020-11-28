@@ -391,5 +391,56 @@
     },
     "2054": {
         "img_url": "https://imgs.xkcd.com/comics/data_pipeline.png"
+    },
+    "2106": {
+        "img_url": "https://imgs.xkcd.com/comics/sharing_options.png"
+    },
+    "2116": {
+        "img_url": "https://imgs.xkcd.com/comics/norm_normal_file_format.png"
+    },
+    "2138": {
+        "img_url": "https://imgs.xkcd.com/comics/wanna_see_the_code.png"
+    },
+    "2158": {
+        "img_url": "https://imgs.xkcd.com/comics/qualifiers.png"
+    },
+    "2166": {
+        "img_url": "https://imgs.xkcd.com/comics/stack.png"
+    },
+    "2169": {
+        "img_url": "https://imgs.xkcd.com/comics/predictive_models.png"
+    },
+    "2173": {
+        "img_url": "https://imgs.xkcd.com/comics/trained_a_neural_net.png"
+    },
+    "2176": {
+        "img_url": "https://imgs.xkcd.com/comics/how_hacking_works.png"
+    },
+    "2180": {
+        "img_url": "https://imgs.xkcd.com/comics/spreadsheets.png"
+    },
+    "2212": {
+        "img_url": "https://imgs.xkcd.com/comics/cell_phone_functions.png"
+    },
+    "2228": {
+        "img_url": "https://imgs.xkcd.com/comics/machine_learning_captcha.png"
+    },
+    "2257": {
+        "img_url": "https://imgs.xkcd.com/comics/unsubscribe_message.png"
+    },
+    "2259": {
+        "img_url": "https://imgs.xkcd.com/comics/networking_problems.png"
+    },
+    "2267": {
+        "img_url": "https://imgs.xkcd.com/comics/blockchain.png"
+    },
+    "2276": {
+        "img_url": "https://imgs.xkcd.com/comics/self_isolate.png"
+    },
+    "2347": {
+        "img_url": "https://imgs.xkcd.com/comics/dependency.png"
+    },
+    "2365": {
+        "img_url": "https://imgs.xkcd.com/comics/messaging_systems.png"
     }
 }
