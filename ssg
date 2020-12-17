@@ -4,7 +4,7 @@
 # so that this doesnt depend on the user
 # having javascript enabled
 #
-# on my server I do: ./ssg.sh && mv static.html index.html
+# on my server I do: ./ssg && mv static.html index.html
 #
 # requires: jq
 
