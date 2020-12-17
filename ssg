@@ -13,20 +13,20 @@ generate_html() {
 	DATA_LINES=$(jq -r 'to_entries[] | "\(.key) \(.value | .img_url)"' <./data.json)
 	while IFS= read -r info; do
 		# split into arr
-		IFS=' ' read -r -a arr <<<"$info"
+		IFS=' ' read -r -a arr <<<"${info}"
 		printf '<figure class="p-2 text-center"><a href="%s" rel="noreferrer"><img src="%s" alt="xkcd %d"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/%d">https://xkcd.com/%d</a></figcaption></figure>\n' "${arr[1]}" "${arr[1]}" "${arr[0]}" "${arr[0]}" "${arr[0]}"
-	done <<<"$DATA_LINES"
+	done <<<"${DATA_LINES}"
 }
 
 while IFS= read -r line; do
-	if [[ "$line" == *"noscript"* ]]; then
+	if [[ "${line}" == *"noscript"* ]]; then
 		# replace the noscript line with a
 		# pre-rendered page
 		generate_html
-	elif [[ "$line" == *"<script"* ]]; then
+	elif [[ "${line}" == *"<script"* ]]; then
 		# do nothing, remove javascript lines
 		: # noop
 	else
-		echo "$line"
+		echo "${line}"
 	fi
 done <./index.html >./static.html
