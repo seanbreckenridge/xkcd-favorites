@@ -4,11 +4,11 @@ import os
 import time
 import json
 import logging
-from typing import Mapping, List, Any, Union
+from typing import List, Any, Dict, Tuple
 
 import yaml
 import requests
-import backoff  # type: ignore
+import backoff  # type: ignore[import]
 
 root_dir: str = os.path.dirname(__file__)
 favorites_file: str = os.path.join(root_dir, "favorites.yaml")  # source
@@ -19,20 +19,24 @@ LOGLEVEL: str = os.environ.get("XKCD_LOGLEVEL", "INFO").upper()
 logging.basicConfig(level=LOGLEVEL, format="%(asctime)s: %(message)s")
 
 
-def get(url) -> requests.Response:
+def get(url: str) -> requests.Response:
     time.sleep(1)
     return requests.get(url)
 
 
 @backoff.on_exception(backoff.fibo, requests.exceptions.RequestException, max_tries=20)
-def get_img_data(id):
+def get_img_data(xkcd_id: int) -> Dict[str, str]:
     """Get image url from an xkcd id"""
-    logging.info("Getting metadata for xkcd id: {}".format(id))
-    resp: Mapping[str, Any] = get(xkcd_json_api.format(id)).json()
-    return {"img_url": resp["img"]}
+    logging.info(f"Getting metadata for xkcd id: {xkcd_id}")
+    resp: Dict[str, Any] = get(xkcd_json_api.format(xkcd_id)).json()
+    return {"img_url": str(resp["img"])}
 
 
-def initialize_data():
+IDList = List[str]
+JsonCache = Dict[str, Dict[str, str]]
+
+
+def initialize_data() -> Tuple[IDList, JsonCache]:
     """Read from yaml/json files to get information about new ids/previous runs"""
 
     # get IDs from yaml file
@@ -40,7 +44,7 @@ def initialize_data():
         ids: List[str] = list(map(str, yaml.load(f, Loader=yaml.FullLoader)))
 
     # read from data file (i.e. cached values) if it exists
-    json_cache: Mapping[str, Union[str, Mapping[str, int]]] = {}
+    json_cache: JsonCache = {}
     if os.path.exists(data_file):
         try:
             with open(data_file, "r") as f:
@@ -50,27 +54,27 @@ def initialize_data():
             pass
 
     # if id's from your favorites have been removed, remove them from the data dictionary:
-    for id in list(json_cache):
-        if id not in ids:
+    for xkcd_id in list(json_cache):
+        if xkcd_id not in ids:
             logging.info(
-                f"Couldn't find id: '{id}' in favorites.yaml, removing from 'data.json'."
+                f"Couldn't find id: '{xkcd_id}' in favorites.yaml, removing from 'data.json'."
             )
-            del json_cache[id]
+            del json_cache[xkcd_id]
 
     return ids, json_cache
 
 
 def main():
-    ids, data = initialize_data()  # type: ignore
+    ids, data = initialize_data()
 
     # if needed, download the information for an id.
-    logging.debug("favorite id list: {}".format(ids))
-    logging.debug("cached ids: {}".format(list(data.keys())))
-    for id in ids:
-        if id not in data:
-            data[id] = get_img_data(id)
+    logging.debug(f"favorite id list: {ids}")
+    logging.debug(f"cached ids: {(list(data.keys()))}")
+    for xkcd_id in ids:
+        if xkcd_id not in data:
+            data[xkcd_id] = get_img_data(xkcd_id)
         else:
-            logging.debug("Found information for id '{}' in 'data.json'".format(id))
+            logging.debug(f"Found information for id '{xkcd_id}' in 'data.json'")
 
     with open(data_file, "w") as f:
         f.write(json.dumps(data, indent=4))
