@@ -31,3 +31,10 @@ figure img {
 figure {
   max-width: 100%;
 }
+
+.back-arrow {
+  margin-top: 0.5rem !important;
+  margin-left: 0.5rem !important;
+  top: 60px !important;
+  z-index: 9999 !important;
+}

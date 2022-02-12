@@ -23,7 +23,7 @@ while IFS= read -r line; do
 		# replace the noscript line with a
 		# pre-rendered page
 		generate_html
-	elif [[ "${line}" == *"<script"* ]]; then
+	elif [[ "${line}" == *"<script"* ]] && [[ "${line}" != *"back-arrow-bundle"* ]]; then
 		# do nothing, remove javascript lines
 		: # noop
 	else
