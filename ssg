@@ -10,12 +10,20 @@
 
 generate_html() {
 	# parse JSON line delimited info
-	DATA_LINES=$(jq -r 'to_entries[] | "\(.key) \(.value | .img_url)"' <./data.json)
-	while IFS= read -r info; do
-		# split into arr
-		IFS=' ' read -r -a arr <<<"${info}"
-		printf '<figure class="p-2 text-center"><a href="%s" rel="noreferrer"><img src="%s" alt="xkcd %d"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/%d">https://xkcd.com/%d</a></figcaption></figure>\n' "${arr[1]}" "${arr[1]}" "${arr[0]}" "${arr[0]}" "${arr[0]}"
-	done <<<"${DATA_LINES}"
+	IDS="$(jq -r 'keys[]' -r <data.json | sort -n)"
+	while IFS= read -r id; do
+		# read value from JSON
+		blob="$(jq -r ".\"${id}\"" -r <data.json)"
+		img_url="$(jq -r '.img_url' -r <<<"${blob}")"
+		alt_text="$(jq -r '.alt_text' -r <<<"${blob}")"
+		printf '<figure class="p-2 text-center"><a href="%s" rel="noreferrer"><img src="%s" alt="xkcd %d"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/%d">https://xkcd.com/%d</a></figcaption><div class="mt-1 caption">%s</div></figure>\n' \
+			"${img_url}" \
+			"${img_url}" \
+			"${id}" \
+			"${id}" \
+			"${id}" \
+			"${alt_text}"
+	done <<<"${IDS}"
 }
 
 while IFS= read -r line; do

@@ -29,7 +29,7 @@ def get_img_data(xkcd_id: int) -> Dict[str, str]:
     """Get image url from an xkcd id"""
     logging.info(f"Getting metadata for xkcd id: {xkcd_id}")
     resp: Dict[str, Any] = get(xkcd_json_api.format(xkcd_id)).json()
-    return {"img_url": str(resp["img"])}
+    return {"img_url": str(resp["img"]), "alt_text": str(resp["alt"])}
 
 
 IDList = List[str]

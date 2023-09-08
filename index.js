@@ -24,6 +24,12 @@ function main() {
       $(caption).append(xkcd_link);
       $(figure).append(caption);
 
+      // attach the alt text as a div undernearth the image
+      let alt_text = document.createElement("div");
+      alt_text.className = ["mt-1", "caption"].join(" ");
+      alt_text.innerText = metadata.alt_text;
+      $(figure).append(alt_text);
+
       // attach to
       $("#wrapper").append(figure);
     });
