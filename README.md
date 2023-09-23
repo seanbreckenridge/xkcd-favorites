@@ -23,4 +23,4 @@ For debugging whether or not something has already been downloaded, you can incr
 
 More about log levels [here](https://docs.python.org/3.7/howto/logging.html#when-to-use-logging).
 
-I've also included a script [ssg](./ssg) which 'pre-renders' the page, removing the javascript from the page so theres no rendering client side. After I clone this to my server, I do: `./ssg && mv static.html index.html`, so that people who have JS disabled can still see the page.
+I've also included a script [ssg](./ssg) which 'pre-renders' the page, removing the javascript from the page so there's no rendering client side. After I clone this to my server, I do: `./ssg && mv static.html index.html`, so that people who have JS disabled can still see the page.

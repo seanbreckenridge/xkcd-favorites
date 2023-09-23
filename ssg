@@ -1,7 +1,7 @@
 #!/bin/bash
 # Reads in the index.html and data.json
 # file and 'pre-renders' the HTML page
-# so that this doesnt depend on the user
+# so that this doesn't depend on the user
 # having javascript enabled
 #
 # on my server I do: ./ssg && mv static.html index.html
