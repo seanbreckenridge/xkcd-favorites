@@ -1,40 +1,34 @@
-#!/bin/bash
-# Reads in the index.html and data.json
-# file and 'pre-renders' the HTML page
-# so that this doesn't depend on the user
-# having javascript enabled
-#
-# on my server I do: ./ssg && mv static.html index.html
-#
-# requires: jq
+#!/usr/bin/env python3
+# yeah, could use an actual HTML parser, but this is fine
 
-generate_html() {
-	# parse JSON line delimited info
-	IDS="$(jq -r 'keys[]' -r <data.json | sort -n)"
-	while IFS= read -r id; do
-		# read value from JSON
-		blob="$(jq -r ".\"${id}\"" -r <data.json)"
-		img_url="$(jq -r '.img_url' -r <<<"${blob}")"
-		alt_text="$(jq -r '.alt_text' -r <<<"${blob}")"
-		printf '<figure class="p-2 text-center"><a href="%s" rel="noreferrer"><img src="%s" alt="xkcd %d"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/%d">https://xkcd.com/%d</a></figcaption><div class="mt-1 caption">%s</div></figure>\n' \
-			"${img_url}" \
-			"${img_url}" \
-			"${id}" \
-			"${id}" \
-			"${id}" \
-			"${alt_text}"
-	done <<<"${IDS}"
-}
+import json
+import re
 
-while IFS= read -r line; do
-	if [[ "${line}" == *"noscript"* ]]; then
-		# replace the noscript line with a
-		# pre-rendered page
-		generate_html
-	elif [[ "${line}" == *"<script"* ]] && [[ "${line}" != *"back-arrow-bundle"* ]]; then
-		# do nothing, remove javascript lines
-		: # noop
-	else
-		echo "${line}"
-	fi
-done <./index.html >./static.html
+# Read data.json
+with open('data.json', 'r') as data_file:
+    data = json.load(data_file)
+
+# Sort IDs
+ids = sorted(data.keys(), key=int)
+
+# Function to generate HTML for each entry
+def generate_html(id):
+    entry = data[str(id)]
+    img_url = entry['img_url']
+    alt_text = entry['alt_text']
+    return f'<figure class="p-2 text-center"><a href="{img_url}" rel="noreferrer"><img src="{img_url}" alt="xkcd {id}"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/{id}">https://xkcd.com/{id}</a></figcaption><div class="mt-1 caption">{id}</div></figure>'
+
+# Read index.html and replace noscript and remove JavaScript lines
+with open('index.html', 'r') as input_file, open('static.html', 'w') as output_file:
+    for line in input_file:
+        if 'noscript' in line:
+            # Replace the noscript line with pre-rendered HTML
+            for id in ids:
+                html = generate_html(id)
+                output_file.write(html + '\n')
+        elif '<script' in line and 'back-arrow-bundle' not in line:
+            # Remove JavaScript lines
+            pass
+        else:
+            # Copy other lines as is
+            output_file.write(line)
