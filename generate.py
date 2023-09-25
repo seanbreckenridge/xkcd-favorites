@@ -24,7 +24,7 @@ def get(url: str) -> requests.Response:
     return requests.get(url)
 
 
-@backoff.on_exception(backoff.fibo, requests.exceptions.RequestException, max_tries=20)
+@backoff.on_exception(backoff.fibo, requests.exceptions.RequestException, max_tries=3)
 def get_img_data(xkcd_id: int) -> Dict[str, str]:
     """Get image url from an xkcd id"""
     logging.info(f"Getting metadata for xkcd id: {xkcd_id}")
@@ -72,9 +72,12 @@ def main():
     logging.debug(f"cached ids: {(list(data.keys()))}")
     for xkcd_id in ids:
         if xkcd_id not in data:
-            data[xkcd_id] = get_img_data(xkcd_id)
+            data[xkcd_id] = get_img_data(int(xkcd_id))
         else:
             logging.debug(f"Found information for id '{xkcd_id}' in 'data.json'")
+
+    # sort dictionary by integer keys
+    data = dict(sorted(data.items(), key=lambda x: int(x[0])))
 
     with open(data_file, "w") as f:
         f.write(json.dumps(data, indent=4))
