@@ -2,31 +2,32 @@
 # yeah, could use an actual HTML parser, but this is fine
 
 import json
-import re
 
 # Read data.json
-with open('data.json', 'r') as data_file:
+with open("data.json", "r") as data_file:
     data = json.load(data_file)
 
 # Sort IDs
 ids = sorted(data.keys(), key=int)
 
+
 # Function to generate HTML for each entry
 def generate_html(id):
     entry = data[str(id)]
-    img_url = entry['img_url']
-    alt_text = entry['alt_text']
-    return f'<figure class="p-2 text-center"><a href="{img_url}" rel="noreferrer"><img src="{img_url}" alt="xkcd {id}"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/{id}">https://xkcd.com/{id}</a></figcaption><div class="mt-1 caption">{id}</div></figure>'
+    img_url = entry["img_url"]
+    alt_text = entry["alt_text"]
+    return f'<figure class="p-2 text-center"><a href="{img_url}" rel="noreferrer"><img src="{img_url}" alt="xkcd {id}"></a><figcaption><a class="mt-1 badge badge-pill" href="https://xkcd.com/{id}">https://xkcd.com/{id}</a></figcaption><div class="mt-1 caption">{alt_text}</div></figure>'
+
 
 # Read index.html and replace noscript and remove JavaScript lines
-with open('index.html', 'r') as input_file, open('static.html', 'w') as output_file:
+with open("index.html", "r") as input_file, open("static.html", "w") as output_file:
     for line in input_file:
-        if 'noscript' in line:
+        if "noscript" in line:
             # Replace the noscript line with pre-rendered HTML
             for id in ids:
                 html = generate_html(id)
-                output_file.write(html + '\n')
-        elif '<script' in line and 'back-arrow-bundle' not in line:
+                output_file.write(html + "\n")
+        elif "<script" in line and "back-arrow-bundle" not in line:
             # Remove JavaScript lines
             pass
         else:
